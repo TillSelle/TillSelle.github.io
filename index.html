@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link to font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Manrope:wght@300&family=Oswald:wght@700&family=Raleway:ital,wght@1,200&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+            margin: 0;
+            color:rgb(255, 255, 255);
+            background-color: #6c6c9e;
+        }
+
+        .header {
+            font-family: 'Lora', serif;
+        }
+
+        .left {
+            position: absolute;
+            margin: 0;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            min-width: 40%;
+            min-height: 100%;
+            background-color: #252525;
+        }
+
+        .right {
+            position: absolute;
+            margin: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            min-width: 60%;
+            min-height: 100%;
+            background-color: #635a5a;
+        }
+
+        .picture {
+            position: relative;
+            margin-top: 25px;
+            height: 290px;
+            width: 290px;
+            border-radius: 45px;
+        }
+
+        .name {
+            font-family: 'Lora', serif;
+        }
+
+        .me {
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .me h3 {
+            font-family: 'Oswald', sans-serif;
+        }
+
+        .flex {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .main_spacing {
+            min-height: 400px;
+            padding: 100px 20vw;
+        }
+
+        .secondary_spacing {
+            min-height: 100px;
+            padding: 40px 20vw;
+        }
+
+        .link {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .link:active, .link:visited {
+            color: rgb(255, 196, 196);
+        }
+
+        .infos {
+            overflow-wrap: break-word;
+            font-family: 'Ubuntu Mono', monospace;
+            font-size: 18px;
+        }
+        
+        .title {
+            font-family: 'Manrope', sans-serif;
+            font-weight: bolder;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <div class="flex">
+            <div>
+                <img 
+            src="https://media.istockphoto.com/photos/icon-of-a-businessman-avatar-or-profile-pic-picture-id474001892" 
+            alt="" 
+            class="picture flex">
+            </div>
+            <div class="name">
+                <h2>Till Selle</h2>
+                <hr>
+            </div>
+            <div class="me">
+                <h3>Meine Daten</h3>
+                <p>
+                    Geburtsdatum: 12.09.2004
+                    <br>
+                    Geburtsort: Chemnitz, Sachsen
+                    <br>
+                    Familienstand: Ledig
+                    <br>
+                    Staatsangehörigkeit: Deutsch
+                </p>
+                <hr>
+                <h3>Anderes</h3>
+                <p>
+                    Telefon: +49 (0)173 5459726
+                    <br>
+                    Email: selle.till@gmail.com
+                    <br>
+                    Email 2: admin@vanth.xyz
+                    <br>
+                    Website: <a class="link" href="https://vanth.xyz">http(s)://vanth.xyz</a>
+                    <br>
+                    GitHub: <a class="link" href="https://github.com/TillSelle">github.com/TillSelle</a>
+                </p>
+                <hr>
+                <h3>Kenntnisse und Sprachen</h3>
+                <p>
+                    Web design - Wenig
+                    <br>
+                    Python - Mittelprächitg
+                    <br>
+                    C# - Gut
+                    <br>
+                    C++ - Mittelprächitg
+                    <br>
+                    Englisch - Gut
+                    <br>
+                    Deutsch - Muttersprache
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="flex">
+            <div>
+                <h1 class="header">
+                    Erfahrung
+                    <hr>
+                </h1>
+            </div>
+            <div>
+                <div  class="infos">
+                    <text class="title">Praktikum<br></text>
+                    <br>
+                    Kindergarten Sonnenkinder 1 Woche
+                    <br>
+                    Kindergarten Sonnenkinder 2 Wochen
+                    <br>
+                    GEORGI Architektur + Stadtplanung GmbH 2 Wochen
+                    <br>
+                    NerdsClub IT Service UG 1 Woche
+                    <hr>
+                    <br>
+                    <text class="title">Lebenslauf<br></text>
+                    <br>
+                    Grundschule Altendorf: 2010-2014
+                    <br>
+                    Oberschule Reichenbrand: 2014-2015
+                    <br>
+                    Oberschule Montessori: 2015-2020
+                    <br>
+                    Oberschule Altendorf: 2020-2022
+                    <hr>
+                    <br>
+                    <text class="title">Projekte<br></text>
+                    <br>
+                    <a class="link" href="https://github.com/TillSelle/KeyExchange">
+                        Verschlüsselung von Nachrichten und
+                        <br>
+                        sichere Übertragung selbiger
+                    </a>(C#)
+                    <br><br>
+                    <a class="link" href="">
+                        Dieser Lebenslauf
+                    </a>(HTML und CSS)
+                    <br><br>
+                    <a class="link" href="https://github.com/TillSelle/SmallChristmasScripts">
+                        Kleine Weinachtsaufgabe
+                    </a>(Python)
+                    <br><br>
+                    <a class="link" href="">
+                        Character Module für Oasys
+                    </a>(C#)
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
